@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.nav-link {
+    color: #007bff; /* Customize link color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make brand text bold */
+}
