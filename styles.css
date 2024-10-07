@@ -1,0 +1,90 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(32, 94, 54, 0.9); /* Rich forest green */
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #205E36; /* Darker forest green for distinction */
+}
+
+.navbar-light .nav-link {
+    color: #FDFDFD; /* Light color for contrast against green */
+    font-weight: 500;
+}
+
+.navbar-light .nav-link:hover {
+    color: #FFD700; /* Warm golden-yellow to match the sunrise */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/background.webp'); /* Replace with correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FFD700; /* Golden-yellow inspired by sunrise */
+    border: none;
+    color: #205E36; /* Dark green for the button text */
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #FFA500; /* Rich orange when hovered, similar to a sunrise glow */
+}
+
+/* Footer Section (if you want to add a footer) */
+footer {
+    background-color: #205E36; /* Forest green to match the theme */
+    color: #FDFDFD;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #FFA500; /* Subtle orange hover effect */
+}
+
+/* General Styling */
+a {
+    color: #87CEEB; /* Sky blue for links */
+}
+
+a:hover {
+    color: #205E36; /* Deep green on hover */
+}
