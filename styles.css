@@ -63,28 +63,3 @@ body {
     background-color: #FFA500; /* Rich orange when hovered, similar to a sunrise glow */
 }
 
-/* Footer Section (if you want to add a footer) */
-footer {
-    background-color: #205E36; /* Forest green to match the theme */
-    color: #FDFDFD;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-link {
-    color: #FFD700;
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    color: #FFA500; /* Subtle orange hover effect */
-}
-
-/* General Styling */
-a {
-    color: #87CEEB; /* Sky blue for links */
-}
-
-a:hover {
-    color: #205E36; /* Deep green on hover */
-}
